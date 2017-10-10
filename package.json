@@ -1,0 +1,27 @@
+{
+  "name": "elastic2xlsx",
+  "version": "1.0.0",
+  "description": "Download data from elastic into XLSX format. The XLSX format[Sheets and Columns] are completely configuration driven. This is a NodesJS application with Elastic and Xlsx plugins. ",
+  "scripts": {
+    "start": "./node_modules/babel-cli/bin/babel-node.js index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "elasticsearch-js",
+    "xlsx"
+  ],
+  "author": "omfd",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "elasticsearch": "^13.3.1",
+    "exceljs": "^0.6.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
